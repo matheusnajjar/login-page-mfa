@@ -1,0 +1,36 @@
+import PropTypes from 'prop-types';
+
+const Filter = ({ filter, setFilter, setSort }) => {
+  return (
+    <div className="filter">
+      <h2>Filter</h2>
+      <div className="filter-options">
+        <div>
+          <p>Status</p>
+          <select value={filter} onChange={(e) => setFilter(e.target.value)}>
+            <option value="All">All</option>
+            <option value="Completed">Completed</option>
+            <option value="Incomplete">Incomplete</option>
+          </select>
+        </div>
+        <div>
+          <p>Alphabetical Order</p>
+          <button className="filter-btn" onClick={() => setSort('Asc')}>
+            Asc
+          </button>
+          <button className="filter-btn" onClick={() => setSort('Desc')}>
+            Desc
+          </button>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+Filter.propTypes = {
+  filter: PropTypes.string.isRequired,
+  setFilter: PropTypes.func.isRequired,
+  setSort: PropTypes.func.isRequired,
+};
+
+export default Filter;

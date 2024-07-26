@@ -1,0 +1,13 @@
+.mfa-method {
+  display: flex;
+  justify-content: center;
+  color: white;
+  padding: 20px 0;
+}
+
+.mfa-selection {
+  display: flex;
+  flex-direction: column;
+  height: 150px;
+  justify-content: space-around;
+}
