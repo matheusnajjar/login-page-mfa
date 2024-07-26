@@ -18,7 +18,6 @@ The **Login Page with Multi-Factor Authentication (MFA)** project is a React-bas
 - **React Icons**: Provides icons for UI elements.
 - **CSS**: Custom styling for the application.
 
----
 
 ### Usage
 
