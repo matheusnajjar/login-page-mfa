@@ -20,18 +20,25 @@ const TodoForm = ({ addTodo }) => {
       <h2>Create Task</h2>
       <form onSubmit={handleSubmit}>
         <input
+          className="input-select"
           type="text"
           placeholder="Insert your task"
           value={value}
           onChange={(e) => setValue(e.target.value)}
         />
-        <select value={category} onChange={(e) => setCategory(e.target.value)}>
+        <select
+          className="input-select"
+          value={category}
+          onChange={(e) => setCategory(e.target.value)}
+        >
           <option value="">Select a category</option>
           <option value="Work">Work</option>
           <option value="Personal">Personal</option>
           <option value="Study">Study</option>
         </select>
-        <button type="submit">Add</button>
+        <button className="filter-btn" type="submit">
+          Add
+        </button>
       </form>
     </div>
   );

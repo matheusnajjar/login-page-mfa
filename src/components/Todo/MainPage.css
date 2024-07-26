@@ -1,9 +1,10 @@
 .app {
-  max-width: 600px;
+  width: 45%;
   margin: 0 auto 300px;
   background-color: #efefef;
   padding: 20px 30px;
   border-radius: 10px;
+  margin-top: 30px;
 }
 
 h1 {
@@ -57,10 +58,24 @@ button:hover {
 
 .complete {
   background-color: #5cb85c;
+  padding: 5px 10px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  opacity: 0.8;
+  transition: 0.3s;
 }
 
 .remove {
   background-color: #d9534f;
+  padding: 5px 10px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  opacity: 0.8;
+  transition: 0.3s;
 }
 
 .todo-form {
@@ -73,6 +88,9 @@ select {
   margin-bottom: 10px;
   border: 1px solid #ddd;
   border-radius: 3px;
+}
+
+.input-select {
   width: 100%;
 }
 
