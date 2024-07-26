@@ -19,15 +19,13 @@ The **Login Page with Multi-Factor Authentication (MFA)** project is a React-bas
 - **CSS**: Custom styling for the application.
 
 
-### Usage
-
-```markdown
 ## Usage
+
 1. **Login Page**: Enter your email and password to log in.
 2. **MFA Selection**: Choose your preferred MFA option (email or text message).
 3. **Enter Code**: Simulate entering an authentication code.
 4. **Access the Todo List**: Manage your tasks with the Todo List interface.
-```
+
 
 ## Demo
 
